@@ -1,0 +1,23 @@
+page-home {
+    .scroll-content{
+        overflow: hidden;
+    }
+    .hcs{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    .img_logo_header{
+        width: 50px;
+    }
+    .toolbar-background{
+        background-color: #ffffff;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    ion-navbar.toolbar{
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    }
+    ion-header.header{
+        border-style: none;
+    }
+}
